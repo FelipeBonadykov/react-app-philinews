@@ -1,0 +1,66 @@
+.breaking_news {
+	width: 69%;
+}
+
+.main_photo_div {
+	width: auto;
+	height: auto;
+	position: relative;
+}
+
+.label {
+	color: white;
+	background-color: black;
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	padding: 4px;
+}
+
+.main_photo {
+	width: 98%;
+	height: auto;
+	max-height: 400px;
+	object-fit: cover;
+}
+
+h3 {
+	cursor: pointer;
+}
+
+h3:hover {
+	text-decoration: underline;
+}
+
+.bottom_part {
+	display: flex;
+	justify-content: space-between;
+}
+
+.author {
+	width: 50%;
+	display: flex;
+	justify-content: center;
+}
+
+.author_credentials {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.author_image {
+	border-radius: 50px;
+	width: 3vw;
+	height: 3vw;
+	margin-top: 20px;
+}
+
+div.bottom_part>h4 {
+	width: 50%;
+}
+
+.news_time {
+	font-weight: lighter;
+	color: gray;
+}

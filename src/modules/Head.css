@@ -1,0 +1,15 @@
+header {
+	text-transform: uppercase;
+}
+
+h1 {
+	font-size: 3rem;
+	display: flex;
+	justify-content: center;
+	font-family: "Times New Roman", Times, serif;
+}
+
+h2 {
+	display: flex;
+	justify-content: center;
+}

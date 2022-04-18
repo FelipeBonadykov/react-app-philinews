@@ -1,0 +1,33 @@
+p {
+	margin: 0px;
+}
+
+.carousel {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.carousel_news {
+	max-width: 25%;
+	display: flex;
+	justify-content: flex-start;
+}
+
+.image {
+	width: 40%;
+	height: auto;
+	background-size: 100% 100%;
+	background-size: cover;
+	margin-right: 5px;
+}
+
+.carousel_news_text {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.title_carousel {
+	font-size: 1.1em;
+	font-weight: bold;
+}

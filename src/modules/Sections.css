@@ -1,0 +1,26 @@
+.sections {
+	display: flex;
+	justify-content: center;
+	cursor: pointer;
+}
+
+.dropdown_container {
+	display: flex;
+	flex-direction: column;
+	position: relative;
+}
+
+.section {
+	margin-left: 1rem;
+	margin-right: 1rem;
+}
+
+.dropdown {
+	flex-direction: column;
+	position: absolute;
+	height: auto;
+	width: auto;
+	background-color: #E8E8E8;
+	padding: 12px;
+	top: 24px;
+}
